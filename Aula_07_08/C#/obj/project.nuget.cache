@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "WRobKMYwIsX+dLgW47dTPG3M7ECN8Au6+wcwWhTZA7hxqHBuR4xq04QCm1urA/Q2QjNO4XfzftiNtNIFqs0ySg==",
+  "dgSpecHash": "jes3Kk5GXttPdS7Myp40Q1d5L4yd8pGSYHSpebqiaIaDIfzQQeW+M/3QnemyPEG54UeGy/44fstn46WFSHrFUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\laboratorio\\Desktop\\Pesquisa_Ordenacao\\Aula_07_08\\C#\\C#.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\User\\Desktop\\Pesquisa_Ordenacao\\Aula_07_08\\C#\\C#.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.18\\microsoft.netcore.app.host.win-x64.7.0.18.nupkg.sha512"
+  ],
   "logs": []
 }
