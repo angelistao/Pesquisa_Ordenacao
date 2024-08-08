@@ -12,7 +12,7 @@ class util:
             n (int): quantidade de números a serem gerados
         """
         for i in range(n):
-            lista.add(random.randint(0, 100))
+            lista.append(random.randint(0, 100))
         
     
 
@@ -26,12 +26,13 @@ class util:
         Returns:
             string: retorna a palavra formada
         """
+        
         letras = "abcdefghijklmnopqrstuvwxyz "
-        numeros = random.randint(letras.Length)
         palavra = ""
 
         for i in range(tamanho):
-            palavra.Append(letras[numeros])
+            numeros = random.randint(0, len(letras) - 1)
+            palavra += letras[numeros]
         
 
         return palavra
@@ -49,7 +50,7 @@ class util:
         """
 
         for i in range(qtd):
-            lista.add(util.gerarPalavra(tamanhoPalavra))
+            lista.append(util.gerarPalavra(tamanhoPalavra))
         
     
 
@@ -65,6 +66,21 @@ class util:
         print(frase)
         for item in lista:
             print(item)
+        
+            
+def main():
+    numeros = []
+    util.popularNumeros(numeros, 5)
+    util.exibir(numeros, "Números Aleatórios:")
+    
+    print("\n")
+
+    palavras = []
+    util.gerarPalavrasLista(palavras, 5, 7)
+    util.exibir(palavras, "Palavras Aleatórias:")
+
+if __name__ == "__main__":
+    main()
         
         
     
