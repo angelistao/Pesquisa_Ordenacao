@@ -1,0 +1,1 @@
+Descobrir complexidade: contar trocas e comparações da ordenação
